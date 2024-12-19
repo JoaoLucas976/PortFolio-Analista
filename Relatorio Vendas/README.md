@@ -42,6 +42,6 @@ Este projeto foi desenvolvido para fins educacionais. Sugestões de melhorias ou
 
 ---
 
-**Autor:** [Seu Nome Aqui]  
+**Autor:** João Lucas Santos Azevedo  
 📧 **Contato:** joaolucasazevedo976@gmail.com
 🌐 **LinkedIn:** [Seu LinkedIn Aqui](https://www.linkedin.com/in/joao-lucas-dados/)
