@@ -1,72 +1,50 @@
-# **Cryptocurrency Dashboard**
+# Dashboard de Criptomoedas - Projeto Power BI
 
-Este repositório contém o código-fonte de um dashboard interativo para gerenciamento e monitoramento de **criptomoedas**. O objetivo principal é fornecer uma visão consolidada das suas moedas, destacando informações financeiras críticas e ajudando na tomada de decisões.
-
----
+Este projeto foi desenvolvido para analisar dados do mercado de criptomoedas utilizando o Power BI. O objetivo principal é criar um **dashboard interativo** que facilite o acompanhamento de ativos digitais, fornecendo informações úteis para análise de performance, decisões de compra/venda e monitoramento de carteira.
 
 <img src="Dashboard_Cryptomoedas.png">
 
----
+## 🎯 **Objetivo do Projeto**
+Demonstrar a aplicação prática do Power BI na criação de um painel analítico focado no mercado de criptomoedas, explorando dados reais ou simulados e extraindo insights estratégicos.
 
-## **Funcionalidades do Dashboard**
+## 📊 **Detalhes do Dashboard**
+O dashboard contém as seguintes informações e métricas:
+- **Resumo da Carteira**: Quantidade total de cada criptomoeda, valor atual, valor investido e lucro/prejuízo acumulado.
+- **Preço Atual e Histórico**: Acompanhamento em tempo real ou simulado dos preços de diferentes ativos.
+- **Indicadores de Compra/Venda**: Destaca se uma criptomoeda está em momento favorável para venda, com base em critérios predefinidos.
+- **Comparativo de Ativos**: Análise entre diferentes criptomoedas da carteira.
+- **Distribuição por Ativo**: Representação visual (gráficos de pizza ou barras) da composição da carteira.
+- **Tendências do Mercado**: Evolução de preços em intervalos de tempo personalizados.
 
-1. **Valor de Compra**: Mostra o preço pelo qual a criptomoeda foi adquirida.  
-2. **Quantidade**: Exibe a quantidade total da criptomoeda na carteira.  
-3. **Valor Atual**: Obtém o preço atual da criptomoeda em tempo real, utilizando dados de APIs confiáveis.  
-4. **Total na Carteira**: Calcula o valor total atual da carteira com base na quantidade e no valor atual da moeda.  
-5. **Diferença**: Mostra a diferença percentual e absoluta entre o valor de compra e o valor atual, indicando lucro ou prejuízo.  
-6. **Momento de Venda**: Identifica automaticamente se é um bom momento para vender, baseado em critérios personalizados como diferença percentual ou outros indicadores definidos pelo usuário.
+## 🔧 **Ferramentas Utilizadas**
+- **Power BI**: Para desenvolvimento do dashboard e visualizações interativas.
+- **Python**: Para integração com APIs de criptomoedas (ex.: CoinGecko) e preparação de dados.
+- **DAX**: Para cálculos avançados e criação de métricas customizadas.
+- **APIs de Mercado**: Obtenção de dados atualizados de preços, históricos e volumes de criptomoedas.
 
----
+## 📁 **Arquivos no Repositório**
+- `Dashboard_Crypto.pbix`: Arquivo do Power BI com o projeto completo.
+- `Script_API.py`: Script Python para coleta de dados via API.
+- `README.md`: Este arquivo explicando o projeto.
+- `Dashboard_Cryptomoedas.png`: Captura de tela do dashboard para visualização prévia.
 
-## **Tecnologias Utilizadas**
+## 🚀 **Como Abrir o Projeto**
+1. Certifique-se de que o arquivo `Dados_Criptomoedas.xlsx` ou a API está configurada corretamente.
+2. Abra o arquivo `Dashboard_Crypto.pbix` no Power BI Desktop.
+3. Atualize os dados para garantir que todas as informações estejam atualizadas.
+4. Explore o dashboard e analise os insights gerados.
 
-- **Python**: Para coleta de dados, processamento e integração com APIs.  
-- **APIs de Criptomoedas**: Utilização da [CoinGecko](https://www.coingecko.com/) para obter dados de preços em tempo real.  
-- **Power BI**: Criação do dashboard interativo para visualização dos dados de forma clara e intuitiva.  
-- **Pandas e NumPy**: Processamento e manipulação de dados financeiros.  
+## 🧠 **Aprendizados**
+- Extração de dados em tempo real de APIs de criptomoedas com Python.
+- Processamento e transformação de dados no Power BI.
+- Criação de KPIs e visualizações otimizadas para análise de investimentos.
+- Aplicação de fórmulas DAX para cálculos de lucro, prejuízo e tendências.
 
----
-
-## **Instalação e Configuração**
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/cryptocurrency-dashboard.git
-   ```
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Configure sua API Key (se necessário):
-   - Para APIs que requerem autenticação, adicione sua chave ao arquivo `.env`:
-     ```plaintext
-     API_KEY=SUA_CHAVE_AQUI
-     ```
-
-4. Execute o script para carregar os dados no dashboard:
-   ```bash
-   python main.py
-   ```
+## 🌟 **Contribuições**
+Este projeto é voltado para aprendizado e portfólio. Feedbacks e sugestões de melhorias são sempre bem-vindos!
 
 ---
 
-## **Como Usar o Dashboard**
-
-1. **Importar os Dados**: Utilize o script Python para coletar dados em tempo real e gerar um arquivo consolidado (CSV ou JSON).  
-2. **Atualizar o Dashboard no Power BI**: Carregue o arquivo consolidado no Power BI para atualizar as informações.  
-3. **Analisar os Dados**:
-   - Verifique a lucratividade de cada moeda.
-   - Identifique rapidamente quais moedas estão no momento ideal para venda.
-
----
-
-## **Contribuição**
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias, correções ou novas funcionalidades.
-
----
-
-## **Licença**
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais informações.
+**Autor:** João Lucas Santos Azevedo  
+📧 **Contato:** joaolucasazevedo976@gmail.com
+🌐 **LinkedIn:** [João Lucas Santos Azevedo](https://www.linkedin.com/in/joao-lucas-dados/)
