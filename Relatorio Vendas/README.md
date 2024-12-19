@@ -2,6 +2,8 @@
 
 Este é um projeto desenvolvido como parte de um curso de Power BI, com o objetivo de criar um **dashboard interativo** para análise de vendas fictícias. O projeto abrange desde a coleta e tratamento dos dados até a construção de visualizações que facilitam a interpretação de métricas importantes para negócios.
 
+<img src="Dashboard_Vendas.png">
+
 ## 🎯 **Objetivo do Projeto**
 Demonstrar a aplicação prática das ferramentas e funcionalidades do Power BI na criação de um painel analítico que forneça insights claros e precisos sobre vendas, ajudando na tomada de decisões estratégicas.
 
